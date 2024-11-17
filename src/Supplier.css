@@ -1,0 +1,37 @@
+#supplier {
+    padding: 78px 0 100px;
+}
+#supplier .supplierbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  #supplier .supplier_head {
+    width: 28%;
+  }
+  #supplier .supplier_head h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    line-height: 60px;
+  }
+  #supplier .supplier_descrip {
+    height: 100%;
+    width: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  #supplier .supplier_descrip p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6C6C6C;
+    width: 88%;
+  }
+  
+  #slidimg .main_imgslid .imgslid_item img {
+    width: 100%;
+    padding: 0 30px;
+  }

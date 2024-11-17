@@ -1,0 +1,8 @@
+#slidimg .main_imgslid{
+    display: flex;
+    column-gap: 30px;
+}
+#slidimg .main_imgslid .imgslid_item img{
+    padding: 0;
+    height: 100%;
+}

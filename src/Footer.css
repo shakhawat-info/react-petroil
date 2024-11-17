@@ -1,0 +1,126 @@
+#footer {
+  padding: 150px 0 0;
+  background-color: #000000;
+}
+#footer .footbox {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+}
+#footer .footbox .foot_logo .footlogo {
+  width: 192px;
+}
+#footer .foot_contact {
+  margin-top: 33px;
+}
+#footer .foot_contact ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#footer .foot_contact ul li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  display: flex;
+  gap: 10px;
+}
+#footer .foot_contact ul li a img {
+  width: 20px;
+}
+#footer .foot_icon {
+  margin-top: 34px;
+}
+#footer .foot_icon ul {
+  display: flex;
+  gap: 12px;
+  padding: 0;
+}
+#footer .foot_icon ul li a {
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    background-color: #f40404;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+#footer .foot_icon ul li a img{
+    width: 20px;
+}
+#footer .foot_head h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+#footer .foot_list ul {
+  padding: 0;
+  margin-top: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#footer .foot_list ul li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+#footer .foot_certificates {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+#footer .foot_certificates .crt1 {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+#footer .foot_certificates .crt1 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #008ad8;
+  text-transform: uppercase;
+}
+#footer .foot_certificates .crt1 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 8px;
+  color: #008ad8;
+}
+#footer .foot_certificates .crt2 {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+#footer .foot_certificates .crt2 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: none;
+  margin: 0;
+}
+#footer .foot_certificates .crt2 h3 span {
+  color: #980077;
+}
+#footer .foot_certificates .crt2 h3 .cetg {
+  color: green;
+}
+#footer .copyright {
+  margin-top: 200px;
+  padding: 10px 0;
+  background-color: #282828;
+}
+#footer .copyright .cprt_txt p {
+  color: #6c6c6c;
+}
+#footer .copyright .cprt_txt p a {
+  color: #6c6c6c;
+}

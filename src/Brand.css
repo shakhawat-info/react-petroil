@@ -1,0 +1,7 @@
+#logo {
+    padding: 115px 0;
+  }
+  #logo .logos {
+    display: flex;
+    column-gap: 27px;
+  }

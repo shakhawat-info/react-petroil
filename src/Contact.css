@@ -1,0 +1,25 @@
+#contact {
+    background-color: #F40404;
+    padding: 25px 0;
+    border-bottom: 2px solid #ffb800;
+  }
+  #contact .main_contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #contact .main_contact .contact_head h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+  #contact .main_contact .contact_btn a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: 2px solid #FFFFFF;
+  }
